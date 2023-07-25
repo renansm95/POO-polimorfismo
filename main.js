@@ -102,7 +102,4 @@ const viktor = new Character("Viktor", 100, 15, 15);
 const sion = new Thief("Sion", 100, 60, 10);
 const lux = new Mage("Lux", 50, 100, 5, 20);
 const kayn = new Warrior("Kayn", 5, "ataque", 200, 20, 50);
-console.table({ kayn, lux, sion, viktor });
-kayn.mudaPosicao();
-sion.atacar(kayn);
-console.log(kayn);
+
